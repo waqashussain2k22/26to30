@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var userInput = prompt("enter number")
+ document.write("User input :"+userInput);
+ document.write("<br>")
+ var roundNumber = Math.round(userInput);
+ document.write("Round of value:"+roundNumber);
+ document.write("<br>")
+ var FloorV = Math.floor(userInput)
+ document.write("floor :"+FloorV);
+ document.write("<br>")
+ var Ceelv = Math.ceil(userInput)
+ document.write("ceil :"+Ceelv);
+ document.write("<br>")
+ document.write("negative Number") 
+ document.write("<br>")
+var userInput = prompt("enter negative number")
+document.write("User input :"+userInput);
+document.write("<br>")
+var roundNumber = Math.round(userInput);
+document.write("Round of value:"+roundNumber);
+document.write("<br>")
+var FloorV = Math.floor(userInput)
+document.write("floor :"+FloorV);
+document.write("<br>")
+var Ceelv = Math.ceil(userInput)
+document.write("ceil :"+Ceelv);
+document.write("<br>")
+
+var number1 = -4;
+var number2 = 5;
+var number1Abc  = Math.abs(number1);
+var number2Abc  = Math.abs(number2);
+
+document.write("Absolute value of " + number1 + " is " + number1Abc + "<br>");
+document.write("Absolute value of " + number2 + " is " + number2Abc);
+document.write("<br>")
+
+var bigDecimal = Math.random();
+ var improvedNum = (bigDecimal * 6) + 1;
+ var numberOfStars = Math.floor(improvedNum);
+document.write(numberOfStars);
+document.write("<br>")
+var toss = Math.floor(Math.random()*2);
+if(toss == 0){
+    document.write("<h2>Coin Value: Heads</h2>")
+}else{
+    document.write("<h2>Coin Value: Tails</h2>")
+}
+document.write("<br>")
+
+var random1 = Math.floor(Math.random()*100)
+document.write("Random Number 1 to 100 :" + random1);
+document.write("<br>")
+
+
+var userInput = prompt("Enter your weight:");
+var weight = parseFloat(userInput)
+
+
+if (!isNaN(weight)) {
+    document.write("<h2>Your weight is: " + weight + " kilograms</h2>");
+} else {
+    document.write("<h2>Invalid input for weight</h2>");
+}
+document.write("<br>")
+
+
+var secretNumber = Math.floor(Math.random() * 10) + 1;
+
+
+var userGuess = prompt("Guess the secret number (between 1 and 10):");
+
+
+if (userGuess === secretNumber) {
+    document.write("<h2>Congratulations! You guessed the secret number.</h2>");
+} else {
+    document.write("<h2>Sorry, try again. The secret number was " + secretNumber + ".</h2>");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
